@@ -24,3 +24,8 @@ npm i
 npm run build
 click bottom of vscode "Go Live"
 rendering localhoast 5500
+
+11.27.2020
+I'm going to take all the webpack-dev-server stuff out for now and move on. 
+I'll build up express server when I cross that bridge. 
+I'm going to use vscode live server for now
