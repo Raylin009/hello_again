@@ -1,17 +1,32 @@
 import React, { useState } from "react";
 
-const Example = () => {
-  // Declare a new state variable, which we'll call "count"
-  const [count, setCount] = useState(0);
+const Todo = () => {
+  const [text, setText] = useState("");
+  const [item, addItem] = useState("")
+
+  const handleChange = (e) => {
+    setText(e.target.value)
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    addItem(`${item} ${text}`)
+    setText("")
+  }
 
   return (
     <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+      <p>thing {item}</p>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="todoInput"
+          value={text}
+          onChange={handleChange}
+        ></input>
+        <input type="submit" value="submit"></input>
+      </form>
     </div>
   );
 };
 
-export default Example;
+export default Todo;
