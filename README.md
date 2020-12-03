@@ -29,3 +29,16 @@ rendering localhoast 5500
 I'm going to take all the webpack-dev-server stuff out for now and move on. 
 I'll build up express server when I cross that bridge. 
 I'm going to use vscode live server for now
+
+12.02.2020
+let's make a todo
+
+notes:JAVASCRIPT EVENT: E.CURRENTTARGET VS. E.TARGET (http://www.qc4blog.com/?p=650)
+
+right now when you type and press add it would add input string to the end of the last one. right now everything is stored in state.
+
+there are many possibiltiy for next step. 
+1. store to database
+2. introduce remove, edit, and change status feature
+3. change function to custom hooks (refactoring)
+4. ask Cindy for ideas to refactor it
