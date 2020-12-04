@@ -45,4 +45,6 @@ there are many possibiltiy for next step.
 
 12.03.2020
 
-change todo state data shape from str to array
+* change todo state data shape from str to array
+* List will take an array of todo items and render it according to specification.
+* List.js Rendering itemsArray

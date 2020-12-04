@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import List from "./List.js";
 
 const Todo = () => {
   const [text, setText] = useState("");
@@ -15,7 +16,8 @@ const Todo = () => {
 
   return (
     <div>
-      <p>thing {item}</p>
+      <h3>Things To Do Below:</h3>
+      <List itemsArr={item}/>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
