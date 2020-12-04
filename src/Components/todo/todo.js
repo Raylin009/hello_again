@@ -2,14 +2,14 @@ import React, { useState } from "react";
 
 const Todo = () => {
   const [text, setText] = useState("");
-  const [item, addItem] = useState("")
+  const [item, addItem] = useState([])
 
   const handleChange = (e) => {
     setText(e.target.value)
   }
   const handleSubmit = (e) => {
     e.preventDefault()
-    addItem(`${item} ${text}`)
+    addItem([...item, text])
     setText("")
   }
 

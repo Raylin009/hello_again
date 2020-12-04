@@ -42,3 +42,7 @@ there are many possibiltiy for next step.
 2. introduce remove, edit, and change status feature
 3. change function to custom hooks (refactoring)
 4. ask Cindy for ideas to refactor it
+
+12.03.2020
+
+change todo state data shape from str to array
