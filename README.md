@@ -48,3 +48,6 @@ there are many possibiltiy for next step.
 * change todo state data shape from str to array
 * List will take an array of todo items and render it according to specification.
 * List.js Rendering itemsArray
+
+12.05.2020
+* Factor out the ListItem into its own component
