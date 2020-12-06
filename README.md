@@ -51,3 +51,10 @@ there are many possibiltiy for next step.
 
 12.05.2020
 * Factor out the ListItem into its own component
+
+** Next Step **
+I want to function or object that generate new item object instead of just string. there are going to be a lot of data in each item other than the text itself. This will help me keep track of the datashape of the todo list items.
+
+newItemGenerator function
+{ id, owner, color, complete, text, ...}
+(these are the data I can come up with for now)
