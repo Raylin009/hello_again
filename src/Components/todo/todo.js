@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import List from "./List.js";
+import todoItem from "./itemObject.js";
 
 const Todo = () => {
   const [text, setText] = useState("");
@@ -10,7 +11,7 @@ const Todo = () => {
   }
   const handleSubmit = (e) => {
     e.preventDefault()
-    addItem([...item, text])
+    addItem([...item, new todoItem(text)])
     setText("")
   }
 
