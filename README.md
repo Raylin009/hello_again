@@ -52,9 +52,16 @@ there are many possibiltiy for next step.
 12.05.2020
 * Factor out the ListItem into its own component
 
-** Next Step **
+12.06.2020
 I want to function or object that generate new item object instead of just string. there are going to be a lot of data in each item other than the text itself. This will help me keep track of the datashape of the todo list items.
 
 newItemGenerator function
 { id, owner, color, complete, text, ...}
 (these are the data I can come up with for now)
+
+12.07.2020
+****Problem****
+in my "item" object, ther are function to change status, owner, and toggle complete. if these function to change the item, then I'm changing the state directly ratherthan using setstate
+* i need to spend more time planning and develp a data shape.
+** Solution **
+delete methods for item in itemObject.js
