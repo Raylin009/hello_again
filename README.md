@@ -65,3 +65,6 @@ in my "item" object, ther are function to change status, owner, and toggle compl
 * i need to spend more time planning and develp a data shape.
 ** Solution **
 delete methods for item in itemObject.js
+
+next step
+implement delete to all items
