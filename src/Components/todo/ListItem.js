@@ -4,6 +4,7 @@ const ListItem = ({item}) => {
   return (
     <li>
       <h6>{item.text}</h6>
+      <button>X</button>
     </li>
   );
 };
