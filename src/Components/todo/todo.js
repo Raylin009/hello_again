@@ -14,6 +14,16 @@ const Todo = () => {
     addItem([...item, new todoItem(text)])
     setText("")
   }
+  const handleDelete = (id) => {
+    let deleteIndex = null;
+    for(let i = 0; i <item.length; i +=1){
+      if(item.id === id){
+        deleteIndex = i;
+        break;
+      }
+    }
+    addItem([...item.slice(0,deleteIndex),...item.slice(deleteIndex+1,item.length)])
+  }
 
   return (
     <div>
