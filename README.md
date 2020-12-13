@@ -68,3 +68,5 @@ delete methods for item in itemObject.js
 
 next step
 implement delete to all items
+
+instead of actually delete it. I can just add a show/no show in the itemObejct and not render the HTML tag. I think the attibute is hide
