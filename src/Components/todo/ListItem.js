@@ -4,7 +4,8 @@ const ListItem = ({item}) => {
   return (
     <li>
       <h6>{item.text}</h6>
-      <button>X</button>
+      <button>Delete to do </button>
+      <button>Edit to do </button>
     </li>
   );
 };
