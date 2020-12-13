@@ -5,6 +5,7 @@ class Item {
     this.complete = complete || false;
     this.owner = owner || null;
     this.listId = listId || Date.now();
+    this.hidden = false;
   }
 }
 
