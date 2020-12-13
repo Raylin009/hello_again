@@ -70,3 +70,6 @@ next step
 implement delete to all items
 
 instead of actually delete it. I can just add a show/no show in the itemObejct and not render the HTML tag. I think the attibute is hide
+
+12.12.2020
+I want to have the run time for edit and delete to be consant. I think i can do that if i let every todo item manage their own state. Nahhh non of this matters just get it done so we can move on to redux and stuff
