@@ -22,13 +22,13 @@ const Todo = () => {
         break;
       }
     }
-    addItem([...item.slice(0,deleteIndex),...item.slice(deleteIndex+1,item.length)])
+    addItem(item.filter((ele) => (ele.id !== id)))
   }
 
   return (
     <div>
       <h3>Things To Do Below:</h3>
-      <List itemsArr={item}/>
+      <List itemsArr={item} handleDelete={handleDelete}/>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

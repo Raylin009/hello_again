@@ -73,3 +73,6 @@ instead of actually delete it. I can just add a show/no show in the itemObejct a
 
 12.12.2020
 I want to have the run time for edit and delete to be consant. I think i can do that if i let every todo item manage their own state. Nahhh non of this matters just get it done so we can move on to redux and stuff
+
+12.14.2020
+I need to test the delete function
