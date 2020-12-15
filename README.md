@@ -76,3 +76,8 @@ I want to have the run time for edit and delete to be consant. I think i can do 
 
 12.14.2020
 I need to test the delete function
+Delete function implemented
+I worry that as I add more features it will all become messy and my code will be unreadable
+
+I need to figure out exactly how I want to implement the change to do feature
+I can buld a pumidoro planner todo list that would be dope
