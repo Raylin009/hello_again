@@ -81,3 +81,7 @@ I worry that as I add more features it will all become messy and my code will be
 
 I need to figure out exactly how I want to implement the change to do feature
 I can buld a pumidoro planner todo list that would be dope
+
+12.16.2020
+I don't know how to do "componentDidMount" with "useState"
+I think there is something about customizing the "useState"
