@@ -82,6 +82,6 @@ I worry that as I add more features it will all become messy and my code will be
 I need to figure out exactly how I want to implement the change to do feature
 I can buld a pumidoro planner todo list that would be dope
 
-12.16.2020
-I don't know how to do "componentDidMount" with "useState"
-I think there is something about customizing the "useState"
+12.15.2020
+Now I can change the input in the changeinput mode in "ListItem" component but...
+I'm setting the prop directly as state in that component. Last time I did that in using react component I ran into a bug. hopefully this hook would be different. but if anything breaks this that would be the first place you look

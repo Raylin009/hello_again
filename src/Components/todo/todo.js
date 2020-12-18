@@ -24,11 +24,23 @@ const Todo = () => {
     }
     addItem(item.filter((ele) => (ele.id !== id)))
   }
+  const handleEdit = (id, curText) => {
+    addItem(
+      item.map(
+        (ele) => {
+          if(ele.id === id){
+            ele.text = curText
+          }
+          return ele
+        }
+      )
+    )
+  }
 
   return (
     <div>
       <h3>Things To Do Below:</h3>
-      <List itemsArr={item} handleDelete={handleDelete}/>
+      <List itemsArr={item} handleDelete={handleDelete} handleEdit={handleEdit}/>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
