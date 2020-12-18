@@ -15,26 +15,12 @@ const Todo = () => {
     setText("")
   }
   const handleDelete = (id) => {
-    let deleteIndex = null;
-    for(let i = 0; i <item.length; i +=1){
-      if(item.id === id){
-        deleteIndex = i;
-        break;
-      }
-    }
     addItem(item.filter((ele) => (ele.id !== id)))
   }
   const handleEdit = (id, curText) => {
-    addItem(
-      item.map(
-        (ele) => {
-          if(ele.id === id){
-            ele.text = curText
-          }
-          return ele
-        }
-      )
-    )
+    addItem(item.map((ele)=>(
+      ele.id === id ? {...ele, text: curText} : ele
+    )))
   }
 
   return (
